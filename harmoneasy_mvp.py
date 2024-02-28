@@ -12,7 +12,7 @@ st.set_page_config(
     }
 )
 
-openai.api_key = st.secrets[API_KEY]
+openai.api_key = st.secrets["API_KEY"]
 
 
 def generate_response(user_input):
