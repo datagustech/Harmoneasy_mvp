@@ -12,7 +12,6 @@ st.set_page_config(
     }
 )
 
-API_KEY = API_KEY
 openai.api_key = API_KEY
 
 
