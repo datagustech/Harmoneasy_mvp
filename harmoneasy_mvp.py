@@ -19,7 +19,7 @@ def generate_response(user_input):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user",
-                   "content": f'Responda como um sommelier falando com alguém leigo. Mas seja bem culto e dê uma resposta detalhada, gerando curiosidade no cliente. Se possível, vinhos mais comuns. Ah, lembre-se de dar uma resposta concisa{user_input}. Use emojis na resposta ao cliente.'}]
+                   "content": f'Use emojis na resposta ao cliente. Responda como um sommelier profissional falando com alguém leigo. Mas seja bem culto e dê uma resposta detalhada, gerando curiosidade no cliente. Se possível, vinhos mais comuns. Ah, lembre-se de dar uma resposta concisa{user_input}.'}]
     )
     return response.choices[0].message['content']
 
