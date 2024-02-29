@@ -27,9 +27,9 @@ def generate_response(user_input):
 def main():
     st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
 
-    user_input = st.text_input("Consulte ao Sommelier aqui:")
+    user_input = st.text_input("Escreva o prato escolhido aqui:")
 
-    if st.button("Enviar"):
+    if st.button("Consultar"):
         response = generate_response(user_input)
 
         st.write("Sommelier: ", response)
