@@ -4,7 +4,8 @@ import openai
 st.set_page_config(
     page_title="Harmoneasy",
     page_icon='🍷',
-    layout='wide',
+    layout='centered',  # Define o layout como centralizado
+    initial_sidebar_state='collapsed',  # Define a barra lateral como fechada por padrão
     menu_items={
         'Get Help': 'https://wa.me/5554981690961',
         'Report a bug': "https://wa.me/5554981690961",
