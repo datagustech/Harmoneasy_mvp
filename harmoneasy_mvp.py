@@ -27,8 +27,9 @@ def generate_response(user_input):
 
 def main():
     # Centralizar a imagem usando HTML e CSS
+    # Centralizar a imagem usando HTML e CSS
     st.markdown(
-        "<div style='display: flex; justify-content: center;'><img src='https://github.com/datagustech/Harmoneasy_mvp/blob/main/Harmoneasy%20logo.png' style='width: 350px;'></div>",
+        "<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 350px;'></div>",
         unsafe_allow_html=True
     )
     #st.image("Harmoneasy logo.png", width=350)
