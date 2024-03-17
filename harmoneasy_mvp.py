@@ -33,14 +33,16 @@ def main():
         #unsafe_allow_html=True
    # )
 
-    # Verifica se o tema do Streamlit é 'light' (fundo branco) ou 'dark' (fundo preto)
     theme = st.get_option("theme.primaryColor")
 
     # Define o caminho das imagens
     if theme == "#FFFFFF":  # Se o fundo for branco
-        image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg' style='width: 300px;'></div>",unsafe_allow_html=True)
+        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg"
     else:  # Se o fundo for preto
-        image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
+        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png"
+
+    # Exibe a imagem correspondente
+    st.image(image_path, use_column_width=True)
 
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.text("\n")
