@@ -26,9 +26,11 @@ def generate_response(user_input):
 
 
 def main():
-    st.image("Harmoneasy logo.png", width=500)
+    with st.beta_container():
+        st.image("Harmoneasy logo.png", width=350, use_column_width=True)  # Use_column_width=True para centralizar
+    #st.image("Harmoneasy logo.png", width=350)
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
-    st.subheader(" ",divider='violet')
+    #st.subheader(" ",divider='violet')
 
     user_input = st.text_input("Escreva o prato escolhido aqui:")
 
