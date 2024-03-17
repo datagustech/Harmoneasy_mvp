@@ -27,43 +27,13 @@ def generate_response(user_input):
 
 def main():
 
-    # Estilo CSS para definir o fundo como preto
-    st.markdown(
-        """
-        <style>
-        .container {
-            width: 100%;
-            padding-left: 0px;
-            padding-right: 0px;
-            background-color: black;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-    # Criar um contêiner para todo o conteúdo da página
-    st.markdown("<div class='container'>", unsafe_allow_html=True)
-
-    # Estilo CSS para definir o fundo como preto
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: black;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
     # Centralizar a imagem usando HTML e CSS
     st.markdown(
         "<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 350px;'></div>",
         unsafe_allow_html=True
     )
-    #st.image("Harmoneasy logo.png", width=350)
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
-    #st.subheader(" ",divider='violet')
+    st.subheader(" ")
 
     user_input = st.text_input("Escreva o prato escolhido aqui:")
 
@@ -76,9 +46,6 @@ def main():
         "<div style='display: flex; justify-content: center;'>© 2024 Harmoneasy. Todos os direitos reservados.</div>",
         unsafe_allow_html=True
     )
-
-    # Fechar o contêiner
-    st.markdown("</div>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
