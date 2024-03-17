@@ -43,7 +43,10 @@ def main():
 
         st.write("Sommelier: ", response)
 
-    st.write("© 2024 Harmoneasy. Todos os direitos reservados.")
+    st.markdown(
+        "<div style='display: flex; justify-content: center;'>© 2024 Harmoneasy. Todos os direitos reservados.</div>",
+        unsafe_allow_html=True
+    )
 
 
 if __name__ == "__main__":
