@@ -28,7 +28,7 @@ def generate_response(user_input):
 def main():
     # Centralizar a imagem usando HTML e CSS
     st.markdown(
-        "<div style='display: flex; justify-content: center;'><img src='Harmoneasy logo.png' style='width: 350px;'></div>",
+        "<div style='display: flex; justify-content: center;'><img src='Harmoneasy_mvp/Harmoneasy logo.png' style='width: 350px;'></div>",
         unsafe_allow_html=True
     )
     #st.image("Harmoneasy logo.png", width=350)
