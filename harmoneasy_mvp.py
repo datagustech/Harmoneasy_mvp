@@ -38,10 +38,9 @@ def main():
 
     # Define o caminho das imagens
     if theme == "#FFFFFF":  # Se o fundo for branco
-        image_path =     st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
-    )
+        image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
     else:  # Se o fundo for preto
-        image_path = image_path =     st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
+        image_path = image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
 
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.text("\n")
