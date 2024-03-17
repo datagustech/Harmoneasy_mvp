@@ -34,6 +34,8 @@ def main():
 
         st.write("Sommelier: ", response)
 
+    st.write("© 2024 Harmoneasy. Todos os direitos reservados.")
+
 
 if __name__ == "__main__":
     main()
