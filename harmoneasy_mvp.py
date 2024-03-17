@@ -3,7 +3,7 @@ import openai
 
 st.set_page_config(
     page_title="Harmoneasy",
-    page_icon='🍷',
+    page_icon='Harmoneasy logo.png',
     layout='wide',
     menu_items={
         'Get Help': 'https://wa.me/5554981690961',
