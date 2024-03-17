@@ -40,9 +40,9 @@ def main():
     if theme == "#FFFFFF":  # Se o fundo for branco
         image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg' style='width: 300px;'></div>",unsafe_allow_html=True)
     else:  # Se o fundo for preto
-        image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpgHarmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
+        image_path = st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
 
-    st.image(image_path, use_column_width=True)
+    st.image(image_path)
 
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.text("\n")
