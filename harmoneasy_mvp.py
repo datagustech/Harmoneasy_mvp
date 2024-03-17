@@ -33,7 +33,7 @@ def main():
         unsafe_allow_html=True
     )
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
-    st.subheader(" ")
+    st.subheader(" ", divider='grey')
 
     user_input = st.text_input("Escreva o prato escolhido aqui:")
 
@@ -42,6 +42,8 @@ def main():
 
         st.write("Sommelier: ", response)
 
+    st.text("\n")
+    st.text("\n")
     st.markdown(
         "<div style='display: flex; justify-content: center;'>© 2024 Harmoneasy. Todos os direitos reservados.</div>",
         unsafe_allow_html=True
