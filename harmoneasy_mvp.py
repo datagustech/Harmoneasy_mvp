@@ -28,19 +28,10 @@ def generate_response(user_input):
 def main():
 
     # Centralizar a imagem usando HTML e CSS
-    #st.markdown(
-       # "<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",
-        #unsafe_allow_html=True
-   # )
-
-    # Opção para o usuário escolher o tema
-    theme = st.selectbox("Escolha o tema:", ["Claro", "Escuro"])
-
-    # Define o caminho das imagens com base na escolha do usuário
-    if theme == "Claro":
-            st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
-    else:
-        st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
+    st.markdown(
+        "<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",
+        unsafe_allow_html=True
+    )
 
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.text("\n")
