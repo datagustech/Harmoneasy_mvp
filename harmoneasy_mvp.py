@@ -26,7 +26,17 @@ def generate_response(user_input):
 
 
 def main():
-    # Centralizar a imagem usando HTML e CSS
+    # Estilo CSS para definir o fundo como preto
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: black;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     # Centralizar a imagem usando HTML e CSS
     st.markdown(
         "<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 350px;'></div>",
