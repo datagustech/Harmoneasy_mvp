@@ -44,7 +44,7 @@ def main():
     )
     #st.image("Harmoneasy logo.png", width=350)
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
-    st.subheader(" ",divider='violet')
+    #st.subheader(" ",divider='violet')
 
     user_input = st.text_input("Escreva o prato escolhido aqui:")
 
