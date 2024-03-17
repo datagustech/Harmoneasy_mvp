@@ -52,8 +52,6 @@ def main():
     st.text("\n")
     st.text("\n")
     st.text("\n")
-    st.text("\n")
-    st.text("\n")
     st.markdown(
         "<div style='display: flex; justify-content: center;'>© 2024 Harmoneasy. Todos os direitos reservados.</div>",
         unsafe_allow_html=True
