@@ -3,7 +3,7 @@ import openai
 
 st.set_page_config(
     page_title="Harmoneasy",
-    page_icon='Harmoneasy logo.png',
+    page_icon='🍷',
     layout='wide',
     menu_items={
         'Get Help': 'https://wa.me/5554981690961',
@@ -25,7 +25,7 @@ def generate_response(user_input):
 
 
 def main():
-    st.image("Harmoneasy logo.png", width=300, height=200)
+    st.image("Harmoneasy logo.png", width=300)
     st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
 
     user_input = st.text_input("Escreva o prato escolhido aqui:")
