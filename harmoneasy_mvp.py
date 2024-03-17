@@ -35,6 +35,7 @@ def main():
         st.write("Sommelier: ", response)
 
     st.write("© 2024 Harmoneasy. Todos os direitos reservados.")
+    st.image("Harmoneasy logo.png")
 
 
 if __name__ == "__main__":
