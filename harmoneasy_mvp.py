@@ -26,8 +26,11 @@ def generate_response(user_input):
 
 
 def main():
-    with st.beta_container():
-        st.image("Harmoneasy logo.png", width=350, use_column_width=True)  # Use_column_width=True para centralizar
+    # Centralizar a imagem usando HTML e CSS
+    st.markdown(
+        "<div style='display: flex; justify-content: center;'><img src='Harmoneasy logo.png' style='width: 350px;'></div>",
+        unsafe_allow_html=True
+    )
     #st.image("Harmoneasy logo.png", width=350)
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     #st.subheader(" ",divider='violet')
