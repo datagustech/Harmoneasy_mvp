@@ -26,6 +26,25 @@ def generate_response(user_input):
 
 
 def main():
+
+    # Estilo CSS para definir o fundo como preto
+    st.markdown(
+        """
+        <style>
+        .container {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+            background-color: black;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Criar um contêiner para todo o conteúdo da página
+    st.markdown("<div class='container'>", unsafe_allow_html=True)
+
     # Estilo CSS para definir o fundo como preto
     st.markdown(
         """
@@ -57,6 +76,9 @@ def main():
         "<div style='display: flex; justify-content: center;'>© 2024 Harmoneasy. Todos os direitos reservados.</div>",
         unsafe_allow_html=True
     )
+
+    # Fechar o contêiner
+    st.markdown("</div>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
