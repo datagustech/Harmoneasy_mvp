@@ -33,13 +33,14 @@ def main():
         #unsafe_allow_html=True
    # )
 
-    theme = st.get_option("theme.primaryColor")
+    # Opção para o usuário escolher o tema
+    theme = st.selectbox("Escolha o tema:", ["Claro", "Escuro"])
 
-    # Define o caminho das imagens
-    if theme == "#FFFFFF":  # Se o fundo for branco
-        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg"
-    else:  # Se o fundo for preto
+    # Define o caminho das imagens com base na escolha do usuário
+    if theme == "Claro":
         image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png"
+    else:
+        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg"
 
     # Exibe a imagem correspondente
     st.image(image_path, use_column_width=True)
