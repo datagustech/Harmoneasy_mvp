@@ -44,10 +44,10 @@ def main():
     if st.button("Consultar"):
         response = generate_response(user_input)
 
+        st.text("\n")
+        st.text("\n")
         st.write("Sommelier: ", response)
 
-    st.text("\n")
-    st.text("\n")
     st.text("\n")
     st.text("\n")
     st.text("\n")
