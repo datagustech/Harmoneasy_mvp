@@ -26,7 +26,7 @@ def generate_response(user_input):
 
 
 def main():
-    st.image("Harmoneasy logo.png", width=300)
+    st.image("Harmoneasy logo.png", width=500)
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.subheader(" ",divider='violet')
 
