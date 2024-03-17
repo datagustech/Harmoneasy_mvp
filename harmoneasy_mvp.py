@@ -38,12 +38,9 @@ def main():
 
     # Define o caminho das imagens com base na escolha do usuário
     if theme == "Claro":
-        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png"
+            st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
     else:
-        image_path = "https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/gustavo terno.jpg"
-
-    # Exibe a imagem correspondente
-    st.image(image_path, use_column_width=True)
+        st.markdown("<div style='display: flex; justify-content: center;'><img src='https://raw.githubusercontent.com/datagustech/Harmoneasy_mvp/main/Harmoneasy%20logo.png' style='width: 300px;'></div>",unsafe_allow_html=True)
 
     #st.subheader("_:black[Sommelier]  :violet[Harmoneasy]_ 🍷", divider='violet')
     st.text("\n")
